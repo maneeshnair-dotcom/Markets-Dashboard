@@ -1,0 +1,7 @@
+streamlit>=1.32
+pandas>=2.0
+numpy>=1.24
+plotly>=5.20
+kiteconnect>=4.2
+yfinance>=0.2.40
+openpyxl>=3.1
