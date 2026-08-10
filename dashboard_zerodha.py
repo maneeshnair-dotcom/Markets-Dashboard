@@ -652,7 +652,7 @@ def render_dashboard_body(df, key_suffix):
         }])
     )
 
-    st.dataframe(styled, width='stretch', height=2000, key=f"df_main_{key_suffix}",
+    st.dataframe(styled, width='stretch', height=600, key=f"df_main_{key_suffix}",
                  column_config={"Stock Name": st.column_config.TextColumn(pinned=True)})
     st.caption("🔵 Sky-blue = watchlist ticker · 🟢 CLOSE green = broke below Gann support · 🔴 CLOSE red = broke above Gann resistance")
 
