@@ -247,7 +247,7 @@ def calculate_wma(series, window=21):
     return pd.Series(out, index=series.index)
 
 
-def calculate_lsma(series, window=25):
+def calculate_lsma(series, window=27):
     n   = window
     arr = series.to_numpy(dtype=float)
     out = np.full(len(arr), np.nan)
